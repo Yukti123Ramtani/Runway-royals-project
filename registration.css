@@ -78,7 +78,7 @@ header .navbar {
 /* Navigation Link Styling */
 .navbar-nav a {
     text-decoration: none;
-    color: white;
+    color: orange;
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 18px;
@@ -89,7 +89,7 @@ header .navbar {
 
 .navbar-nav a:hover,
 .navbar-nav a.active {
-    background:khaki;
+    background:white;
     color: black;
 }
 
