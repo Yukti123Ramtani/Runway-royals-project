@@ -11,6 +11,11 @@ header {
 html {
     scroll-padding-top: 70px; /* Match the header height */
 }
+.content h2{
+    position:relative;
+    top:0;
+    bottom:10px;
+}
 
 
 .row h2 {
