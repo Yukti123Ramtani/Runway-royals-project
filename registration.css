@@ -5,6 +5,11 @@
     font-size: 36px;
     color: rgb(89, 0, 255);
 }
+h2 {
+    visibility: visible; /* Ensures it's visible */
+    opacity: 1; /* Makes sure it’s fully opaque */
+}
+
 
   /* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
