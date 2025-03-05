@@ -1,10 +1,20 @@
+
 .moon-dance-regular {
-    font-family: "Moon Dance", cursive;
+    font-family: "Moon Dance", cursive, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 36px;
     color: rgb(89, 0, 255);
+    z-index: 10;
+    position: relative;
 }
+
+.content {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9); /* Translucent background for better readability */
+    z-index: 2;
+}
+
 
   header {
     padding:10px;
