@@ -16,6 +16,56 @@
  /* Translucent background for better readability */
     z-index: 2;
 }
+.col-md-4 {
+    position: relative;
+    background-color: #ffeb3b; /* Light yellow background for the form */
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 24px;
+    max-width: 400px;
+    background: linear-gradient(135deg, #fff176, #ffeb3b); /* Gradient yellow */
+    position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f57f17; /* Strong yellow-orange for the text */
+    font-size: 36px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fbc02d; /* Medium yellow for labels */
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #fdd835; /* Yellow border for input fields */
+    border-radius: 3px;
+    background-color: #fffde7; /* Pale yellow background */
+}
+
+button {
+    padding: 10px;
+    background-color: #f9a825; /* Vibrant yellow button */
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f57f17; /* Darker yellow-orange for hover effect */
+}
+
 
 
   header {
