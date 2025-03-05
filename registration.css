@@ -87,10 +87,13 @@ header .navbar {
     margin:20px;
 }
 
-.navbar-nav a:hover,
-.navbar-nav a.active {
+.navbar-nav a:hover {
     background:white;
     color: black;
+}
+.navbar-nav a.active{
+    background:blue;
+    color:orange;
 }
 
 /* Menu Icon for Mobile */
