@@ -11,14 +11,12 @@
 
 .content {
     position: relative;
-
-    background-color:rgb(255, 209, 220);
- /* Translucent background for better readability */
     z-index: 2;
+    background-color: transparent; /* Reverted to translucent background */
 }
 .col-md-4 {
     position: relative;
-    background-color: #ffeb3b; /* Light yellow background for the form */
+    background-color: #e84393;
     align-items: center;
     justify-items: center;
     overflow: hidden;
@@ -26,9 +24,7 @@
     padding: 20px;
     font-size: 24px;
     max-width: 400px;
-    background: linear-gradient(135deg, #fff176, #ffeb3b); /* Gradient yellow */
-    position: relative;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    background: linear-gradient(135deg, #ff4b2b, #ff416c); /* Pink gradient */
 }
 
 h2 {
