@@ -5,6 +5,10 @@
     font-size: 36px;
     color: rgb(89, 0, 255);
 }
+.row h2 {
+    margin-top: 70px; /* Adjust based on header height */
+}
+
 h2 {
     position: relative;
     top: 0;
