@@ -9,6 +9,11 @@ h2 {
     visibility: visible; /* Ensures it's visible */
     opacity: 1; /* Makes sure it’s fully opaque */
 }
+h2 {
+    position: relative;
+    z-index: 10;
+}
+
 
 
   /* Import Google Font */
