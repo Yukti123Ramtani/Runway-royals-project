@@ -11,6 +11,8 @@
 
 .content {
     position: relative;
+
+    background-color:rgb(255, 209, 220);
  /* Translucent background for better readability */
     z-index: 2;
 }
