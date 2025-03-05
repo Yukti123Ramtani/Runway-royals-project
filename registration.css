@@ -8,6 +8,10 @@
 header {
     z-index: 1000; /* Keep it above, but ensure spacing below */
 }
+html {
+    scroll-padding-top: 70px; /* Match the header height */
+}
+
 
 .row h2 {
     margin-top: 70px; /* Adjust based on header height */
