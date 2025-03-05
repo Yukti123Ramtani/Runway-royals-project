@@ -5,6 +5,10 @@
     font-size: 36px;
     color: rgb(89, 0, 255);
 }
+header {
+    z-index: 1000; /* Keep it above, but ensure spacing below */
+}
+
 .row h2 {
     margin-top: 70px; /* Adjust based on header height */
 }
