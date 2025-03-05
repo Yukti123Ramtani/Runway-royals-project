@@ -6,6 +6,12 @@
     color: rgb(89, 0, 255);
 }
 h2 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+h2 {
     visibility: visible; /* Ensures it's visible */
     opacity: 1; /* Makes sure it’s fully opaque */
 }
