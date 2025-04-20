@@ -42,13 +42,7 @@ h2 {
   /* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
 
-.moon-dance-regular {
-    font-family: "Moon Dance", cursive;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 50px;
-    color: rgb(89, 0, 255);
-}
+
 
 /* Navbar Styles */
 header .navbar {
@@ -78,7 +72,7 @@ header .navbar {
 /* Navigation Link Styling */
 .navbar-nav a {
     text-decoration: none;
-    color: orange;
+    color: red;
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 18px;
@@ -87,13 +81,14 @@ header .navbar {
     margin:20px;
 }
 
-.navbar-nav a:hover {
+.navbar-nav a:hover,
+ {
     background:white;
     color: black;
 }
 .navbar-nav a.active{
-    background:blue;
     color:orange;
+    backgorund:blue;
 }
 
 /* Menu Icon for Mobile */
@@ -395,3 +390,12 @@ header {
 
   
 
+  
+
+
+
+
+
+
+
+ 
